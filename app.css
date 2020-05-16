@@ -51,6 +51,7 @@ html, body {
     height: 100%;
 	width: 100%;
 	background-color: aliceblue;
+	font-family: sans-serif;
 }
 
 .signup-wrapper {
@@ -84,6 +85,14 @@ html, body {
 	grid-column-start: 2;
 	grid-column-end: 2;
 	margin-top: 5px;
+}
+
+.have-account {
+	grid-column: 1;
+	font-size: 12px;
+	margin-top: 5px;
+	background: none;
+	border: none;
 }
 
 .signup-button-grid {

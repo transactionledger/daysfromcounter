@@ -11,8 +11,8 @@
 
 <body>
 
+    <!-- This is the grid for the signup form -->
     <div class="signup-wrapper">
-
 
         <div class="authView">
             <form id="signup-form">
@@ -20,12 +20,15 @@
                 <input id="signup-password" class="input-text" type="text" required placeholder="Password">
 
                 <div class="signup-button-grid">
-                    <button id="signup-button" (click)="handleSignUp()">Signup</button>
+                    <button class="have-account" type="button" onclick="showSignin()">Already have an account?</button>
+                    <button id="signup-button" type="submit" (click)="handleSignUp()">Signup</button>
                 </div>
             </form>
         </div>
 
     </div>
+
+    <!-- This is the grid for the login form -->
 
     <script src="app.js"></script>
 </body>

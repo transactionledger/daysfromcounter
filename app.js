@@ -21,3 +21,9 @@ function handleSignUp(e) {
         .then((user) => showTodos(user.username))
         .catch((e) => document.getElementById('signup-error').innerHTML = e)
 }
+
+function showSignin(e) {
+    let element = document.getElementsByClassName('signup-wrapper')[0];
+    console.log(element);
+    element.style.display = 'none';
+}
