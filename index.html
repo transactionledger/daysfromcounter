@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://sdk.userbase.com/1/userbase.js"></script>
+    <link href="app.css" rel="stylesheet" type="text/css" />
+    <title>Date Counter</title>
+</head>
+
+<body>
+
+    <div class="signup-wrapper">
+
+
+        <div class="authView">
+            <form id="signup-form">
+                <input id="signup-username" class="input-text" type="text" required placeholder="Username">
+                <input id="signup-password" class="input-text" type="text" required placeholder="Password">
+
+                <div class="signup-button-grid">
+                    <button id="signup-button" (click)="handleSignUp()">Signup</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
