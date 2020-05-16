@@ -23,7 +23,11 @@ function handleSignUp(e) {
 }
 
 function showSignin(e) {
-    let element = document.getElementsByClassName('signup-wrapper')[0];
-    console.log(element);
-    element.style.display = 'none';
+    document.getElementsByClassName('signup-wrapper')[0].style.display = 'none';
+    document.getElementsByClassName('login-wrapper')[0].style.display = 'grid';
+}
+
+function showSignup(e) {
+    document.getElementsByClassName('login-wrapper')[0].style.display = 'none';    
+    document.getElementsByClassName('signup-wrapper')[0].style.display = 'grid';
 }
